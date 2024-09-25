@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Untitled</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños, Mamii!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Audio de Fondo -->
+    <audio id="audio" src="https://drive.google.com/uc?export=download&id=1B-xzyG1UgXtEtLqqWgHsjZk1klQqN1Ok" autoplay loop></audio>
+
+    
+    <!-- Contenedor Principal -->
+    <div class="container">
+        <h1 class="animated-text">¡Felices 41, Mamii!</h1>
+        <p class="message">Eres la mejor mamá del mundo, te amo mucho. Que todos tus sueños se hagan realidad.</p>
+        
+        <!-- Imágenes Centrales -->
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM%20(3).jpeg" alt="Imagen especial 1" class="central-image">
+            <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM%20(1).jpeg" alt="Imagen especial 2" class="central-image">
+            <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM%20(2).jpeg" alt="Imagen especial 3" class="central-image">
+            <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM.jpeg" alt="Imagen especial 4" class="central-image">
+        </div>
+        
+        <!-- Botones para Funciones Adicionales -->
+        <div class="buttons">
+            <button id="randomMessageButton">Mensaje Aleatorio</button>
+            <button id="dailyMessageButton">Mensaje del Día</button>
+            <button id="diaryButton">Diario Interactivo</button>
+            <button id="changeMoodButton">Modo Luz de Ánimo</button>
+            <button id="toggleMusicButton">Pausar Música</button>
+        </div>
+
+        <p class="closing-message">¡Que tengas una vida increíble mami, te la super mereces, te amo demasiado, eres una gran mujer y una gran persona, estoy super orgullosa de ti, je t'aime beaucoup!</p>
+    </div>
+
+    <!-- Imágenes Flotantes Adicionales -->
+    <div class="floating-images">
+        <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM%20(1).jpeg" alt="Imagen especial 1" class="floating-image">
+        <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM%20(2).jpeg" alt="Imagen especial 2" class="floating-image">
+        <img src="https://raw.githubusercontent.com/milaepc/imagenes/main/WhatsApp%20Image%202024-09-24%20at%209.22.02%20PM.jpeg" alt="Imagen especial 4" class="floating-image">
+    </div>
+
+    <!-- Tooltip para Imágenes -->
+    <div class="tooltip" id="tooltip"></div>
+    
+    <!-- Popup de Mensajes -->
+    <div class="message-popup" id="messagePopup">
+        <span id="popupText"></span>
+        <span class="close-btn" id="closePopup">&times;</span>
+    </div>
+    
+    <!-- Sección del Diario Interactivo -->
+    <div id="diarySection" class="diary-section" style="display:none;">
+        <textarea id="diaryInput" placeholder="¿Cómo te sientes hoy?"></textarea>
+        <button id="saveDiaryButton">Guardar Nota</button>
+        <div id="savedDiary" class="saved-diary"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
